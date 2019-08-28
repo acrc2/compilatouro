@@ -43,31 +43,33 @@ System.out.println("Quantidade de Identificadores encontrados: "+qtdeID);
 letter          = [A-Za-z]
 digit           = [0-9]
 integer         = {digit}+
-alphanumeric    = {letter}|{digit}
-identifier      = {letter}({alphanumeric})*
-whitespace      = [ \n \t \r \f]
+alphanumeric    = {letter}|{digit}|"_"
+identifier      = {letter}({alphanumeric})*|"_"({alphanumeric})*
+whitespace      = [ \n\t]
 resWord = "boolean"|"class"|"public"|"extends"|"static"|"void"|"main"|"String"|"int"|"while"|"if"|"else"|"return"|"length"|"true"|"false"|"this"|"new" | "System.out.println"
 operator        = "&&"|"<"|"=="|"!="|"+"|"-"|"*"|"!"
 pontuation      =  ";" |"."| ","| "="|"(" |")" |"{" |"}" |"[" |"]"
+Comment         = {TraditionalComment} | {EndOfLineComment} | {DocumentationComment}
+TraditionalComment   = "/*" [^*] ~"*/" | "/*" "*"+ "/"
+EndOfLineComment = "//" {InputCharacter}* {LineTerminator}?
+DocumentationComment = "/**" {CommentContent} "*"+"/"
+CommentContent   = ( [^*] | \*+ [^/*] )*
+InputCharacter = [^\r\n]
+LineTerminator = \r|\n|\r\n
+
 
 %%
 /**
  * REGRAS LEXICAS:
  */
 
-and             { System.out.println("Token AND"); }
-"or"			{ System.out.println("Token OR"); }
-"*"             { System.out.println("Token *"); }
-"+"             { System.out.println("Token +"); }
-"-"             { System.out.println("Token -"); }
-"/"             { System.out.println("Token /"); }
-"("             { System.out.println("Token ("); }
-")"             { System.out.println("Token )"); }
-{pontuation}    { System.out.println("token gerado foi um delimitador: '"+ yytext() +"'na linha:" +yyline+ ", coluna: "+yycolumn);}
-{resWord}       { System.out.println("token gerado foi um reservado: '"+ yytext() +"'na linha:" +yyline+ ", coluna: "+yycolumn);}
-{operator}      { System.out.println("token gerado foi um operador: '"+ yytext() +"'na linha:" +yyline+ ", coluna: "+yycolumn);)}
-{identifier}    { qtdeID++; System.out.println("Token ID ("+yytext()+")"); }
-{integer}       { System.out.println("Token INT ("+yytext()+")"); }
+
+{Comment}       {/* ingore */}
+{pontuation}    { System.out.println("token gerado foi um delimitador: '"+ yytext() +"' na linha: " +yyline+ ", coluna: "+yycolumn);}
+{resWord}       { System.out.println("token gerado foi um reservado: '"+ yytext() +"' na linha: " +yyline+ ", coluna: "+yycolumn);}
+{operator}      { System.out.println("token gerado foi um operador: '"+ yytext() +"' na linha: " +yyline+ ", coluna: "+yycolumn);}
+{identifier}    { qtdeID++; System.out.println("token gerado foi um id: '"+yytext()+"' na linha: " +yyline+ ", coluna: "+yycolumn); }
+{integer}       { System.out.println("token gerado foi um integer: '"+ yytext() +"' na linha: " +yyline+ ", coluna: "+yycolumn);}
 {whitespace}    { /* Ignorar whitespace. */ }
 .               { System.out.println("Illegal char, '" + yytext() +
                     "' line: " + yyline + ", column: " + yycolumn); }
