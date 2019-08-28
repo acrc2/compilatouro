@@ -1,103 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="730be4a8-06ef-42fb-8372-0fb0a72fbb19" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="07f5493c-191e-4c91-af81-9378df78623a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/MiniJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="361" column="40" lean-forward="true" selection-end-line="735" />
-              <folding>
-                <element signature="e#7118#7119#0" expanded="true" />
-                <element signature="e#7146#7147#0" expanded="true" />
-                <element signature="e#10858#10859#0" expanded="true" />
-                <element signature="e#10889#10890#0" expanded="true" />
-                <element signature="e#11027#11028#0" expanded="true" />
-                <element signature="e#11062#11063#0" expanded="true" />
-                <element signature="e#11174#11175#0" expanded="true" />
-                <element signature="e#11251#11252#0" expanded="true" />
-                <element signature="e#11609#11610#0" expanded="true" />
-                <element signature="e#11651#11652#0" expanded="true" />
-                <element signature="e#11749#11750#0" expanded="true" />
-                <element signature="e#11789#11790#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/MiniJava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="662" column="72" selection-start-line="662" selection-start-column="72" selection-end-line="662" selection-end-column="72" />
-              <folding>
-                <element signature="e#7118#7119#0" expanded="true" />
-                <element signature="e#7146#7147#0" expanded="true" />
-                <element signature="e#10858#10859#0" expanded="true" />
-                <element signature="e#10889#10890#0" expanded="true" />
-                <element signature="e#11027#11028#0" expanded="true" />
-                <element signature="e#11062#11063#0" expanded="true" />
-                <element signature="e#11174#11175#0" expanded="true" />
-                <element signature="e#11251#11252#0" expanded="true" />
-                <element signature="e#11609#11610#0" expanded="true" />
-                <element signature="e#11651#11652#0" expanded="true" />
-                <element signature="e#11749#11750#0" expanded="true" />
-                <element signature="e#11789#11790#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/MiniJava.jflex">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/Gerador.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/MiniJava.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/MiniJava.jflex" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -106,64 +15,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="100" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="atividade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-AutoJflexTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atividade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-AutoJflexTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atividade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-AutoJflexTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atividade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-AutoJflexTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atividade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-AutoJflexTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br.ufpe.cin.if688.jflex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="atividade1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01-AutoJflexTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1Q28L3ggJFmmqVIqlb0yvJvAezB" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in atividade1 (3)">
+  <component name="RunManager" selected="JUnit.All in atividade1 (2)">
     <configuration name="Gerador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.ufpe.cin.if688.jflex.Gerador" />
       <module name="atividade1" />
@@ -207,7 +63,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in atividade1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in atividade1 (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atividade1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -225,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in atividade1 (3)" />
-        <item itemvalue="Application.Gerador" />
         <item itemvalue="JUnit.All in atividade1 (2)" />
+        <item itemvalue="Application.Gerador" />
         <item itemvalue="JUnit.All in atividade1 (1)" />
         <item itemvalue="JUnit.All in atividade1" />
+        <item itemvalue="JUnit.All in atividade1 (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -238,127 +94,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="730be4a8-06ef-42fb-8372-0fb0a72fbb19" name="Default Changelist" comment="" />
-      <created>1566939463063</created>
+      <changelist id="07f5493c-191e-4c91-af81-9378df78623a" name="Default Changelist" comment="" />
+      <created>1566957273381</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566939463063</updated>
+      <updated>1566957273381</updated>
+      <workItem from="1566957284971" duration="8317000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_in_atividade1 - 2019.08.27 at 18h 03m 25s.xml">
-      <configuration name="All in atividade1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_atividade1_(2) - 2019.08.27 at 18h 15m 11s.xml">
-      <configuration name="All in atividade1 (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_atividade1_(3) - 2019.08.27 at 18h 22m 32s.xml">
-      <configuration name="All in atividade1 (3)" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32974428" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/Gerador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/TesteLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="47" lean-forward="true" selection-end-line="730" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MiniJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="361" column="40" lean-forward="true" selection-end-line="735" />
-          <folding>
-            <element signature="e#7118#7119#0" expanded="true" />
-            <element signature="e#7146#7147#0" expanded="true" />
-            <element signature="e#10858#10859#0" expanded="true" />
-            <element signature="e#10889#10890#0" expanded="true" />
-            <element signature="e#11027#11028#0" expanded="true" />
-            <element signature="e#11062#11063#0" expanded="true" />
-            <element signature="e#11174#11175#0" expanded="true" />
-            <element signature="e#11251#11252#0" expanded="true" />
-            <element signature="e#11609#11610#0" expanded="true" />
-            <element signature="e#11651#11652#0" expanded="true" />
-            <element signature="e#11749#11750#0" expanded="true" />
-            <element signature="e#11789#11790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br.ufpe.cin.if688.jflex/MiniJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="662" column="72" selection-start-line="662" selection-start-column="72" selection-end-line="662" selection-end-column="72" />
-          <folding>
-            <element signature="e#7118#7119#0" expanded="true" />
-            <element signature="e#7146#7147#0" expanded="true" />
-            <element signature="e#10858#10859#0" expanded="true" />
-            <element signature="e#10889#10890#0" expanded="true" />
-            <element signature="e#11027#11028#0" expanded="true" />
-            <element signature="e#11062#11063#0" expanded="true" />
-            <element signature="e#11174#11175#0" expanded="true" />
-            <element signature="e#11251#11252#0" expanded="true" />
-            <element signature="e#11609#11610#0" expanded="true" />
-            <element signature="e#11651#11652#0" expanded="true" />
-            <element signature="e#11749#11750#0" expanded="true" />
-            <element signature="e#11789#11790#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/MiniJava.jflex">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
 </project>

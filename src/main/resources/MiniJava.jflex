@@ -46,25 +46,29 @@ integer         = {digit}+
 alphanumeric    = {letter}|{digit}
 identifier      = {letter}({alphanumeric})*
 whitespace      = [ \n \t \r \f]
-comments        = {"//", "/*", "*/"}
-
+resWord = "boolean"|"class"|"public"|"extends"|"static"|"void"|"main"|"String"|"int"|"while"|"if"|"else"|"return"|"length"|"true"|"false"|"this"|"new" | "System.out.println"
+operator        = "&&"|"<"|"=="|"!="|"+"|"-"|"*"|"!"
+pontuation      =  ";" |"."| ","| "="|"(" |")" |"{" |"}" |"[" |"]"
 
 %%
 /**
  * REGRAS LEXICAS:
  */
+
 and             { System.out.println("Token AND"); }
-"or"				{ System.out.println("Token OR"); }
+"or"			{ System.out.println("Token OR"); }
 "*"             { System.out.println("Token *"); }
 "+"             { System.out.println("Token +"); }
 "-"             { System.out.println("Token -"); }
 "/"             { System.out.println("Token /"); }
 "("             { System.out.println("Token ("); }
 ")"             { System.out.println("Token )"); }
+{pontuation}    { System.out.println("token gerado foi um delimitador: '"+ yytext() +"'na linha:" +yyline+ ", coluna: "+yycolumn);}
+{resWord}       { System.out.println("token gerado foi um reservado: '"+ yytext() +"'na linha:" +yyline+ ", coluna: "+yycolumn);}
+{operator}      { System.out.println("token gerado foi um operador: '"+ yytext() +"'na linha:" +yyline+ ", coluna: "+yycolumn);)}
 {identifier}    { qtdeID++; System.out.println("Token ID ("+yytext()+")"); }
 {integer}       { System.out.println("Token INT ("+yytext()+")"); }
 {whitespace}    { /* Ignorar whitespace. */ }
-";"             { System.out.println("Você é interessera saia da mia moto!!")}
 .               { System.out.println("Illegal char, '" + yytext() +
                     "' line: " + yyline + ", column: " + yycolumn); }
 
